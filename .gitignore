@@ -18,6 +18,9 @@ coverage
 # Turbo
 .turbo
 
+# VSCode
+.vscode
+
 # Vercel
 .vercel
 
@@ -26,6 +29,7 @@ coverage
 out/
 build
 dist
+
 
 
 # Debug
