@@ -37,32 +37,7 @@ module.exports = merge(common, {
             return chunks.map((chunk) => chunk.name).join("-");
           },
         },
-        // node_modules: {
-        //   test: /[\\/]node_modules[\\/]/,
-        //   name(module) {
-        //     const packageName = module.context.match(
-        //       /[\\/]node_modules[\\/](.*?)([\\/]|$)/,
-        //     )[1];
-        //     return packageName;
-        //   },
-        // },
       },
-      // name(module, chunks, cacheGroupKey) {
-      //   const filePathAsArray = module.identifier().split("/");
-      //   return filePathAsArray[filePathAsArray.length - 1];
-      // },
-      // cacheGroups: {
-      //   jquery: {
-      //     test: /[\\/]node_modules[\\/]jquery[\\/]/,
-      //     chunks: "initial",
-      //     name: "jquery",
-      //   },
-      //   bootstrap: {
-      //     test: /[\\/]node_modules[\\/]bootstrap[\\/]/,
-      //     chunks: "initial",
-      //     name: "bootstrap",
-      //   },
-      // },
     },
     minimize: true,
     minimizer: [
