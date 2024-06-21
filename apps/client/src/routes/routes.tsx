@@ -12,4 +12,8 @@ export const routes: RouteObject[] = [
     path: "/next",
     element: <Next />,
   },
+  {
+    path: "*",
+    element: <h1>Not Found</h1>,
+  }
 ];
