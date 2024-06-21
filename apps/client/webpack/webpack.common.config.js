@@ -37,13 +37,6 @@ const config = {
         path.join(process.cwd(), "build/**/*"),
       ],
     }),
-    new CopyWebpackPlugin({
-      patterns: [
-        {
-          from: "images/motivational-images/*.*",
-        },
-      ],
-    }),
   ],
 };
 
