@@ -12,10 +12,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@babel/preset-react": "^7.24.7",
     "@babel/core": "^7.23.2",
     "@babel/plugin-proposal-pipeline-operator": "^7.22.15",
     "@babel/preset-env": "^7.24.7",
+    "@babel/preset-react": "^7.24.7",
     "@babel/preset-typescript": "^7.23.2",
     "@emotion/babel-plugin": "^11.11.0",
     "@types/react": "^18.3.3",
@@ -52,8 +52,8 @@
     "bootstrap": "^5.3.2",
     "jquery": "^3.7.1",
     "lodash-es": "^4.17.21",
-    "react": "^18.3.1",
-    "react-dom": "18.3.1",
+    "react": "19.0.0-rc-f994737d14-20240522",
+    "react-dom": "19.0.0-rc-f994737d14-20240522",
     "react-router-dom": "^6.23.1"
   }
 }
