@@ -1,6 +1,8 @@
 import React from "react";
 import { routes } from "./routes";
 import { useLocation, useRoutes } from "react-router-dom";
+import { Header } from "./components/header";
+import { Box } from "@mui/material"
 
 export const App = () => {
   console.log(routes);
@@ -8,5 +10,11 @@ export const App = () => {
   console.log(location);
 
   const element = useRoutes(routes);
-  return element;
+  return (
+    <Box sx={{ flexGrow: 1 }}>
+      <Header />
+      <Box sx={{ flexGrow: 1 }}>{element}</Box>
+    </Box>
+  )
+
 };
